@@ -1,0 +1,8 @@
+
+.icon-location:before { content: '\e800'; } /* '' */
+.icon-clock:before { content: '\e801'; } /* '' */
+.icon-print:before { content: '\e802'; } /* '' */
+.icon-heart-filled:before { content: '\e803'; } /* '' */
+.icon-export:before { content: '\e804'; } /* '' */
+.icon-pitch:before { content: '\e82a'; } /* '' */
+.icon-info:before { content: '\f129'; } /* '' */

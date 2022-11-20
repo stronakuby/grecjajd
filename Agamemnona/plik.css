@@ -1,0 +1,288 @@
+.maps{
+  width:1000px;
+  position: absolute;
+left: 0;
+top: 0;
+width: 1000px;
+height: 930px;
+z-index: -100;
+position:fixed;
+float: left;
+}
+
+.mapa{
+  float: left;
+}
+
+.tekst{
+  float: left;
+  margin-top:90px;
+  margin-left:1050px;
+
+}
+
+p1{
+  color:#5b5b5b
+  
+  
+}
+
+p2{
+  font-size:30px;
+}
+hr{
+  height: 1px;
+  background-color: #847453;
+  border: none;
+}
+
+.icon-heart-filled{
+  font-size: 20px;
+  color:#847453;
+}
+
+.icon-print{
+  font-size: 20px;
+  color:#847453;
+
+}
+
+.icon-export{
+  font-size: 20px;
+  color:#847453;
+
+}
+
+.ikony{
+  float: right;
+  margin-top:20px;
+  margin-right:20px;
+}
+
+.text2{
+  margin-top:0px;
+  margin-left:1050px;
+  color:#5b5b5b;
+
+}
+
+.icon-info{
+  border-right:1px solid black;
+  color:#847453;
+  margin-right:10px;
+  margin-left:10px;
+}
+.icon-pitch{
+  border-right:1px solid black;
+  color:#847453;
+  margin-right:10px;
+}
+.icon-clock{
+  border-right:1px solid black;
+  color:#847453;
+  margin-right:10px;
+
+}
+.icon-location{
+  border-right:1px solid black;
+  color:#847453;
+  margin-right:10px;
+}
+
+p3{
+  color:#5b5b5b;
+  font-size:17px;
+  font-family: 'Open Sans', sans-serif;
+}
+p4{
+  color:black;
+  font-size:17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+  color:black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+} 
+
+.pokaz{
+  margin-top:10px;
+}
+
+p13{
+  font-size:30px;
+  margin-left:340px;
+  color:black;
+  
+}
+
+p5{
+  font-size:30px;
+  color:black;
+}
+
+.dół{
+  background-color: white;
+  position: absolute;
+  bottom: -10;
+  left:0;
+  height:200px;
+ 
+}
+.pho{
+background-color: white;
+position: absolute;
+
+height:200px;
+}
+
+.linia{
+  border-left: 1px solid black;
+  float:left;
+  
+}
+.tekst3{
+float:left;
+border-left: 1px solid black;
+}
+
+p14{
+  font-size:30px;
+  color:black;
+  margin-top:40px;
+}
+p18{
+font-size:30px;
+}
+
+
+
+
+
+
+.container9 {
+position: relative;
+width: 50%;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay9 {
+position: absolute;
+bottom: 0;
+left: 100%;
+right: 0;
+background-color: white;
+overflow: hidden;
+width: 0;
+height: 100%;
+transition: .5s ease;
+}
+
+.container9:hover .overlay9 {
+width: 100%;
+left: 0;
+}
+
+.text {
+color: blue;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+white-space: nowrap;
+}
